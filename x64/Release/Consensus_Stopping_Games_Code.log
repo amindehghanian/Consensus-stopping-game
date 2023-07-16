@@ -1,0 +1,37 @@
+﻿Build started 10/28/2017 7:23:36 AM.
+     1>Project "C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\Consensus_Stopping_Games_Code.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\Consensus_Stopping_Games_Code.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\ILOG\CPLEX126\cplex\include /Zi /nologo /W3 /WX- /MP /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt "Cut Generator.cpp" Main.cpp "Make problems.cpp"
+         Cut Generator.cpp
+         Main.cpp
+         Make problems.cpp
+     1>Main.cpp(57): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Main.cpp(637): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Main.cpp(1096): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Main.cpp(1584): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(1429): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(1430): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(1431): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(1582): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(1583): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(2122): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Make problems.cpp(2123): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\x64\Release\Consensus_Stopping_Games_Code.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\ILOG\CPLEX126\cplex\lib\x64_windows_vs2012\stat_mda C:\ILOG\CPLEX126\cplex\lib\x64_windows_vs2012\stat_mda\cplex1260.lib /MANIFEST /ManifestFile:"x64\Release\Consensus_Stopping_Games_Code.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\x64\Release\Consensus_Stopping_Games_Code.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\x64\Release\Consensus_Stopping_Games_Code.lib" /MACHINE:X64 "x64\Release\Cut Generator.obj"
+         x64\Release\Main.obj
+         "x64\Release\Make problems.obj"
+         Generating code
+         Finished generating code
+         Consensus_Stopping_Games_Code.vcxproj -> C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\x64\Release\Consensus_Stopping_Games_Code.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\x64\Release\Consensus_Stopping_Games_Code.exe;#1" /manifest x64\Release\Consensus_Stopping_Games_Code.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\Consensus_Stopping_Games_Code.unsuccessfulbuild".
+         Touching "x64\Release\Consensus_Stopping_Games_Code.lastbuildstate".
+     1>Done Building Project "C:\Users\AMD120\Downloads\Consensus_Stopping_Games_Code\Consensus_Stopping_Games_Code.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.59
